@@ -2,14 +2,18 @@
   "id": "dragons-css",
   "title": "Dragons - CSS",
   "description": "CSS du module Dragons",
-  "author": "Padhiver",
-  "authors": [],
+  "version": "This is auto replaced",
+  "authors": [
+    {
+      "name": "Padhiver",
+      "discord": "Padhiver#1916"
+    }
+  ],
   "url": "",
   "flags": {},
-  "version": "1",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.284"
+    "verified": "10"
   },
   "scripts": [],
   "esmodules": [
@@ -35,8 +39,9 @@
     ],
   "dependencies": [],
   "socket": false,
-  "manifest": "",
-  "download": "",
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced",
   "protected": false,
   "coreTranslation": false,
   "minimumSystemVersion": "1.1.3",
