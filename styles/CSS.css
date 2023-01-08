@@ -146,13 +146,15 @@ a.content-link, a.inline-roll {
 	color:black;
 	font-family:Calibri;
 	font-size:1.1rem;
-	text-align:justify
+	text-align:justify;
+	line-height: 1.15;
 }
 .editor-content p {
 	color:black;
 	font-family:Calibri;
 	font-size:1rem;
-	text-align:justify
+	text-align:justify;
+	line-height: 1.15;
 }
 
 /*/ Liste (li) /*/
@@ -352,6 +354,9 @@ a.config-button.midiqol-onuse-macros {
 }
 
 /*/ ui /*/
+.tidy5e.sheet.item .sheet-body .editor .editor-content p, .tidy5e.sheet.item .sheet-body .editor .editor-content li {
+	line-height: 1.15 !important;
+}
 .journal-sheet .journal-header {
 	display:none;
 }
