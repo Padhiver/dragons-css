@@ -361,6 +361,10 @@ a.config-button.midiqol-onuse-macros {
     font-family: "Calibri";
 	color:antiquewhite;
 }
+.tidy5e.sheet.item button, .tidy5e.sheet.item select {
+    border: none;
+	color: antiquewhite !important;
+}
 .tidy5e.sheet.actor input[type=checkbox], .tidy5e.sheet.actor input[type=radio], .tidy5e.sheet.actor button, .tidy5e.sheet.actor select {
     cursor: pointer;
     -webkit-box-shadow: none;
