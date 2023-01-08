@@ -191,9 +191,6 @@ a.content-link, a.inline-roll {
     display: inline-block;
     content: '•';
 }
-.editor-content li {
-	margin-bottom: 10px;
-}
 /*/ Correction Prosemirror (li) /*/
 .prosemirror menu li {
 	padding-left:0px !important;
@@ -337,7 +334,7 @@ select option {
 .dnd5e.sheet.item {
     min-height: 715px;
     max-height: 95%;
-    min-width: 600px;
+    min-width: 675px;
 }
 .dnd5e.sheet.actor.npc {
     min-width: 740px !important;
@@ -363,7 +360,6 @@ a.config-button.midiqol-onuse-macros {
 }
 .tidy5e.sheet.item button, .tidy5e.sheet.item select {
     border: none;
-	color: antiquewhite !important;
 }
 .tidy5e.sheet.actor input[type=checkbox], .tidy5e.sheet.actor input[type=radio], .tidy5e.sheet.actor button, .tidy5e.sheet.actor select {
     cursor: pointer;
