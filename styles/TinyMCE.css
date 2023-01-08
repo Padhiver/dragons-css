@@ -1,0 +1,328 @@
+@font-face{
+    font-family:Calibri;
+    src:url('../fonts/calibri.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal		
+}
+@font-face{
+    font-family:Calibrib;
+    src:url('../fonts/calibrib.ttf') format('truetype');
+    font-weight:bold;
+    font-style:normal		
+}
+@font-face{
+    font-family:Calibrii;
+    src:url('../fonts/calibrii.ttf') format('truetype');
+    font-weight:normal;
+    font-style:italic		
+}
+@font-face{
+    font-family:Morris;
+    src:url('../fonts/MorrisRomanBlack.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal		
+}
+
+
+/*/ journal /*/
+/*/ Titres /*/
+.mce-content-body h1, .editor-content h1 {
+	font-family: Morris;
+	color:#6d2f1c;
+	text-align: center;	
+	border-bottom:none;
+	font-size: 5em;
+    padding-bottom: 20px;
+}
+.mce-content-body h2, .editor-content h2 {
+	font-family: Morris;
+	color:#6d2f1c;
+	border-bottom:none;
+	font-size: 2.5em;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	margin-top: -10px !important;
+}
+.mce-content-body h2:before, .editor-content h2:before {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: "";
+    background: url("../artwork/journal/t2.webp") no-repeat 0 0;
+    background-size: 100%;
+	position:relative;
+    right: 10px;
+    top: 22px;
+}
+.mce-content-body h3, .editor-content h3 {
+	font-family: Morris;
+	color:#6d2f1c;
+	border-bottom:none;
+	font-size: 2em;
+    padding-left: 6px;
+    padding-bottom: 10px;
+}
+.mce-content-body h3:before, .editor-content h3:before {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    content: "";
+    background: url("../artwork/journal/t3.webp") no-repeat 0 0;
+    background-size: 100%;
+	position:relative;
+    right: 5px;
+    top: 6px;
+}
+.mce-content-body h4:not(.window-title), .editor-content h4 {
+	font-family: Morris;
+	color:#6d2f1c;
+	border-bottom:none;
+	font-size: 1.8em;
+    padding-bottom: 10px;
+}
+/*/ Séparateur /*/
+.mce-content-body hr {
+    text-align: center;
+    height: 0px;
+    border-image: linear-gradient(to right, transparent, #6d2f1c, transparent) 1;
+    margin: 30px 10px;
+    overflow: visible;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    border-width: 2px;
+}
+.mce-content-body hr::after {
+    content: url(../artwork/journal/dragon.png);
+    bottom: 30px;
+    position: relative;
+}
+/*/ Textes /*/
+.mce-content-body p {
+	color:black;
+	font-family:Calibri;
+	font-size:1.1rem;
+	text-align:justify
+}
+.editor-content p {
+	color:black;
+	font-family:Calibri;
+	font-size:1rem;
+	text-align:justify
+}
+/*/ Tables /*/
+.mce-content-body table, .editor-content table {
+	border-collapse: collapse;
+	border-style: hidden;
+	background:transparent;
+}
+.mce-content-body table td, .editor-content table td {
+	border: 2px solid #6d2f1c;
+	background:transparent;
+	padding: 5px;
+}
+.mce-content-body table tr:nth-child(even), .editor-content table tr:nth-child(even) {
+	background:transparent;
+}
+/*/ Blockquote /*/
+.mce-content-body blockquote, .editor-content blockquote {
+    background-color:#6d2f1c;
+    border:none;
+    border-radius:3px;
+    color:#fff;
+    font-weight:400;
+	font-style: normal !important;
+    margin-right:30px !important;
+    margin-left:30px !important;
+    margin-bottom:0;
+    padding:0;
+    padding:1em 1.5em;
+    padding-left:2em;
+    position:relative
+}
+.mce-content-body blockquote p, .editor-content blockquote p {
+	color:white;
+}
+.mce-content-body blockquote:before, .editor-content blockquote:before {
+    background-color:#fff;
+    border:2px solid #e9d7a1);
+    border-radius:3em;
+    color:#6d2f1c;
+    content:"";
+    display:grid;
+    font-family:Font Awesome\ 5 Free;
+    font-style:normal;
+    font-weight:900;
+    height:2em;
+    left:-1.2em;
+    padding-left:2px;
+    padding-top:2px;
+    place-content:center;
+    position:absolute;
+    top:1em;
+    width:2em
+}
+/*/ Nouvelles classes /*/
+.narration {
+    font-family: Calibri;
+	font-size:1.1rem;
+	text-align:justify;
+    background-color: #faf7ea;
+    border-style: solid;
+    border-width: 7px;
+    border-image: url(../artwork/journal/narration.png) 12 stretch;
+    border-image-outset: 4px;
+    padding: .1em;
+    filter: drop-shadow(0 0 3px #faf7ea);
+	margin-left:30px;
+	margin-right:30px;
+}
+.mce-content-body .colonne {
+	column-count: 2;
+	color:black;
+	font-family:Calibri;
+	font-size:1.1rem;
+	text-align:justify
+}
+
+/*/ Liste (li) /*/
+.mce-content-body ul, .editor-content ul {
+	font-family:Calibri;
+	font-size:1.1rem;
+	text-align:justify;
+}
+.mce-content-bodyt ul, .editor-content ul { list-style: none;} {
+}
+.mce-content-body li, .editor-content li { position: relative;} {
+}
+.mce-content-body li:not(li.heading.h2, li.heading.h3, li.heading.h4), .editor-content li {
+	padding-left:20px;
+}
+.mce-content-body ul, .editor-content ul {
+	font-family:Calibri;
+	font-size:1.1rem;
+	text-align:justify;
+}
+.mce-content-body ul li::marker, .editor-content ul li::marker {
+    position: absolute;
+    left: -21px;
+    top: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    content: url(../artwork/journal/puce.png);
+}
+.journal-sheet ul li li::marker, .editor-content ul li li::marker {
+    position: absolute;
+    left: -21px;
+    top: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    content: '•';
+}
+/*/ Image /*/
+.mce-content-body img, .editor-content img {
+    border: none;
+}
+/*/ Monster Frame /*/
+.monster.frame {
+    border-style: solid;
+    border-width: 7px 6px;
+    background-color: #f2e5b5;
+    background-image: url(../artwork/journal/parchement.jpg);
+    border-image: url(../artwork/journal/Border.png) 14 round;
+    border-image-outset: 0px 2px;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    filter: drop-shadow(1px 4px 6px #888);
+    padding: 4px 2px;
+    margin-left: 18%;
+    margin-right: -0.16cm;
+    width: calc(70%);
+}
+.monster {
+    font-family: ScalySansRemake;
+    font-size: .318cm;
+    line-height: 1.2em;
+    position: relative;
+    padding: 0px;
+    margin-bottom: .325cm;
+}
+.block {
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+}
+.monster h2 {
+    font-family: Morris;
+    color: #6d2f1c;
+    border-bottom: none;
+    font-size: 2.3em;
+	padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px !important;
+}
+.monster h2+p {
+    font-size: .304cm;
+    margin-bottom: 0;
+}
+.monster p, .monster dl, .monster ul, .monster ol {
+    line-height: 1.2em;
+}
+.monster hr {
+    visibility: visible;
+    height: 6px;
+    margin: .12cm 0;
+    background-image: url("../artwork/journal/separateur2.svg");
+    background-size: 100% 100%;
+    border: none;
+}
+.monster hr::after {
+	content:''
+}
+.blank {
+    height: 1em;
+    margin-top: 0;
+}
+.monster h2::before {
+	display:none;
+}
+.monster h3::before {
+	display:none;
+}
+.monster h3 {
+	font-family: Morris;
+	color:#6d2f1c;
+	border-bottom:none;
+	font-size: 2em;
+	padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px !important;
+}
+.monster table {
+	border-collapse: collapse;
+	border-style: hidden;
+	background:transparent;
+}
+.monster table thead {
+	background: transparent;
+    color: #6d2f1c;
+    text-shadow: none;
+    border-bottom: none;
+}
+.monster table td {
+	border: 2px solid transparent;
+	background:transparent;
+	padding: 5px;
+}
+.monster table tr:nth-child(even) {
+	background:transparent;
+}
+.monster p {
+	color:black;
+	font-family:Calibri;
+	font-size:1rem;
+	text-align:justify
+}

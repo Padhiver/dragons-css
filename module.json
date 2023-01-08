@@ -1,0 +1,45 @@
+{
+  "id": "dragons-css",
+  "title": "Dragons - CSS",
+  "description": "CSS du module Dragons",
+  "author": "Padhiver",
+  "authors": [],
+  "url": "",
+  "flags": {},
+  "version": "1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.284"
+  },
+  "scripts": [],
+  "esmodules": [
+    "./config.js"
+  ],
+  "styles": [
+    "styles/CSS.css"
+  ],
+  "languages": [],
+  "packs": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/v10-dev/system.json",
+        "compatibility": {
+          "minimum": "2",
+          "verified": "2.0.0-alpha3",
+          "maximum": "3"
+        }
+      }
+    ],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "coreTranslation": false,
+  "minimumSystemVersion": "1.1.3",
+  "library": false
+}
+}
