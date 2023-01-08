@@ -154,7 +154,7 @@ a.content-link, a.inline-roll {
 	font-family:Calibri;
 	font-size:1rem;
 	text-align:justify;
-	line-height: 1.15;
+	line-height: 1.15 !important;
 }
 
 /*/ Liste (li) /*/
@@ -353,7 +353,20 @@ a.config-button.midiqol-onuse-macros {
 	color: #4b4a44;
 }
 
-/*/ ui /*/
+/*/ UI /*/
+.tidy5e.sheet.actor .items-list .item .ammo-switch {
+    height: unset;
+    margin-left: 4px;
+    font-size: 12px;
+    font-family: "Calibri";
+	color:antiquewhite;
+}
+.tidy5e.sheet.actor input[type=checkbox], .tidy5e.sheet.actor input[type=radio], .tidy5e.sheet.actor button, .tidy5e.sheet.actor select {
+    cursor: pointer;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: antiquewhite !important;
+}
 .tidy5e.sheet.item .sheet-body .editor .editor-content p, .tidy5e.sheet.item .sheet-body .editor .editor-content li {
 	line-height: 1.15 !important;
 }
@@ -379,6 +392,10 @@ a.config-button.midiqol-onuse-macros {
 	color: antiquewhite !important;
 }
 #sidebar .tab[data-tab].settings-sidebar h2:nth-of-type(4) {
+	background-image: url("../artwork/ui/ui-title-ribbon-red.png") !important;
+	color: antiquewhite !important;
+}
+.tab.sidebar-tab.compendium-sidebar h3 {
 	background-image: url("../artwork/ui/ui-title-ribbon-red.png") !important;
 	color: antiquewhite !important;
 }
