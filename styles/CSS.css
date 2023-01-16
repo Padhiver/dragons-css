@@ -319,7 +319,26 @@ a.content-link, a.inline-roll {
 .dnd5e.sheet .sheet-header img.profile {	
 	border-right:none;
 }
+/*/ Dragons - Blessures - Convenient Effect /*/
+.convenient-effects li.folder.collapsed > .folder-header { 
+	color:antiquewhite;
+	background:rgb(0 0 0 / 70%);
+}
 
+.convenient-effects li.folder > .folder-header {
+	color:black;
+	background: rgb(255 255 255 / 20%);
+}
+.convenient-effects li.folder:not(.collapsed) > .folder-header h3 {
+	color:black;
+}
+
+.convenient-effects .subdirectory {
+	color:black;
+}
+.chat-message .table-draw .table-description {
+    display: none;
+}
 /*/ Fiche de perso /*/
 .dnd5e.sheet.actor.character {
     min-width: 740px !important;
