@@ -80,6 +80,14 @@
 	font-size: 1.8em;
     padding-bottom: 10px;
 }
+.journal-sheet h5, .editor-content h5 {
+	font-family: Morris;
+	color:#6d2f1c;
+	border-bottom:none;
+	font-size: 2em;
+    padding-left: 11px;
+    padding-bottom: 10px;
+}
 /*/ Lien et lien-titre /*/
 .journal-sheet h3 a, .editor-content h3 a {
     text-decoration: dotted underline #6d2f1c 4px;
@@ -339,6 +347,143 @@ a.content-link, a.inline-roll {
 .chat-message .table-draw .table-description {
     display: none;
 }
+/*/ Dragons - Modulaires /*/
+.mtitre {
+	margin-left: -10px;
+}
+.action:before {
+    content: url("../artwork/modules/action.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.corruption:before {
+    content: url("../artwork/modules/corruption.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.dragons:before {
+    content: url("../artwork/modules/dragons.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.eveil:before {
+    content: url("../artwork/modules/eveil.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.hasard:before {
+    content: url("../artwork/modules/hasard.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.implacable:before {
+    content: url("../artwork/modules/implacable.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.intrigue:before {
+    content: url("../artwork/modules/intrigue.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.mystere:before {
+    content: url("../artwork/modules/mystere.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.noirceur:before {
+    content: url("../artwork/modules/noirceur.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.arcanique:before {
+    content: url("../artwork/modules/verrouarcanique.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.funeste:before {
+    content: url("../artwork/modules/verroufuneste.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+.mental:before {
+    content: url("../artwork/modules/verroumental.png");
+    position: relative;
+    margin: 10px;
+    margin-right: 1px;
+    width: 49px;
+    height: 10px;
+    float: left;
+    top: -28px;
+    left: -10px;
+}
+
 /*/ Fiche de perso /*/
 .dnd5e.sheet.actor.character {
     min-width: 740px !important;

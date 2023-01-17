@@ -1,5 +1,20 @@
 Hooks.on("init", () => {
     CONFIG.TinyMCE.style_formats[0].items.push(
+	  { title: 'Modulaire', items: [
+		{title : 'Action', block : 'p', classes : 'action'},
+		{title : 'Corruption', block : 'p', classes : 'corruption'},
+		{title : 'Dragons', block : 'p', classes : 'dragons'},
+		{title : 'Eveil', block : 'p', classes : 'eveil'},
+		{title : 'Hasard', block : 'p', classes : 'hasard'},
+		{title : 'Implacable', block : 'p', classes : 'implacable'},
+		{title : 'Intrigue', block : 'p', classes : 'intrigue'},
+		{title : 'Mystère', block : 'p', classes : 'mystère'},
+		{title : 'Noirceur', block : 'p', classes : 'noirceur'},
+		{title : 'Verrou arcanique', block : 'p', classes : 'arcanique'},
+		{title : 'Verrou funeste', block : 'p', classes : 'funeste'},
+		{title : 'Verrou mental', block : 'p', classes : 'mental'},
+		{title : 'Titre', block : 'h5', classes : 'mtitre'}
+    ] },
 		{title : 'Narration', block : 'section', classes : 'narration'},
 		{title : 'Colonne', block : 'section', classes : 'colonne'},
 		{title : 'Monster', block : 'section', classes : 'monster'},
